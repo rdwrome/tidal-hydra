@@ -6,5 +6,5 @@ OSCFunc({ |msg, time, tidalAddr|
 	msg.postln;
 	addr.sendBundle(latency, msg)
 }, '/play2').fix;
-///SuperDirt.start;
-///s.options.memSize = 8192 * 126; 
+SuperDirt.start;
+///s.options.memSize = 8192 * 126;
